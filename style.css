@@ -1,0 +1,96 @@
+body {
+    font-family: montserrat;
+    background-color: rgb(44, 44, 44);
+    
+
+}
+
+.box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(71, 13, 172);
+    border-radius: 10px;
+
+}
+.head{
+    height: 80px;
+    top: 8%;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+.quotesAndAuthor {
+    color: white;
+}
+
+.quotebtn {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+#newQuote {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 400px;
+    background-color: rgb(177, 48, 171);
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1rem;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#author::before {
+    content: "- ";
+
+}
+
+#quotes {
+    width: 300px;
+}
+
+.tweetbtn {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    top: -0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tweetbtn i{
+    font-size: 25px;
+}
+.tweetbtn:hover{
+    opacity: 0.8;
+}
+#newQuote:hover{
+    opacity: 0.8;
+}
