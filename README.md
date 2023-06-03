@@ -7,6 +7,7 @@ This app allows user to get new quotes everytime they click the new quote button
 * The button below will alow to change the quote.
 * User can directly tweet the quote on their timeline by just clicking the twitter button at the top right corner.
 # We can see the actual result in the below picture.
-# Try the app : https://i-m-gaurav.github.io/Quotes-Generator-app/
+# Try the app : 
+* https://i-m-gaurav.github.io/Quotes-Generator-app/
 ![image](https://user-images.githubusercontent.com/68615047/196364740-dfb36ec7-9a75-4e98-a9ba-fe3599a16b5b.png)
 
